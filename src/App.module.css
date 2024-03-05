@@ -1,0 +1,48 @@
+.mainContainer {
+	--tamanhoFontePadrao: 1.6rem;
+	--multiplicadorTamanhoFonte: 1;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 0;
+	font-size: calc(
+		var(--tamanhoFontePadrao) * var(--multiplicadorTamanhoFonte, 1)
+	);
+
+  /*RESETANDO ESTILOS DE ELEMENTOS HTML DENTRO DESSA CLASSE*/
+	* {
+		font-size: calc(
+			var(--tamanhoFontePadrao) * var(--multiplicadorTamanhoFonte, 1)
+		);
+	}
+
+  h5 {
+    --multiplicadorTamanhoFonte: 1.2;
+  }
+
+  h4 {
+    --multiplicadorTamanhoFonte: 1.5;
+  }
+
+	h3 {
+		--multiplicadorTamanhoFonte: 2;
+	}
+
+  h2 {
+    --multiplicadorTamanhoFonte: 2.5;
+  }
+
+  h1 {
+    --multiplicadorTamanhoFonte: 3;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-evenly;
+}

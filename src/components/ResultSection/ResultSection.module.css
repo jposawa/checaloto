@@ -1,0 +1,7 @@
+.resultListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100%;
+  overflow: auto;
+}

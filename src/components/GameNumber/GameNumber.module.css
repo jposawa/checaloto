@@ -1,0 +1,14 @@
+.gameNumber {
+	--numberSize: 4rem;
+	border: 1px solid green;
+	font-size: calc(var(--numberSize) * 0.6);
+	min-width: var(--numberSize);
+  width: var(--numberSize);
+	min-height: var(--numberSize);
+  height: var(--numberSize);
+  padding: 1rem;
+	border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

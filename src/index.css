@@ -1,0 +1,20 @@
+:root {
+	font-size: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.oculto {
+	visibility: hidden;
+	opacity: 0;
+}

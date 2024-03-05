@@ -1,0 +1,66 @@
+.modal,
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.modal {
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.background {
+	background: #00000050;
+	z-index: -1;
+}
+
+.corpo {
+	position: relative;
+	width: 50%;
+	height: 50%;
+	background: #fff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+
+	header {
+    width: 100%;
+		position: absolute;
+		display: flex;
+	}
+}
+
+.btnFecha {
+	margin-left: auto;
+	font-size: 3rem;
+	width: 3.5rem;
+	height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+  background: none;
+  border: none;
+  color: #800;
+}
+
+.conteudo {
+  display: flex;
+  height: 100%;
+  flex-grow: 0;
+}
+
+.grafico {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  canvas {
+    height: 100% !important;
+  }
+}

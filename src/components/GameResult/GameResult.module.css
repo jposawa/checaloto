@@ -1,0 +1,27 @@
+.resultContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &:nth-child(2n) {
+    background: #ddd;
+  }
+  
+  &:not(:last-child) {
+    padding-bottom: 1rem;
+  }
+}
+
+.numbersContainer {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.alternateWidth {
+  width: min(60%, 22rem);
+}
